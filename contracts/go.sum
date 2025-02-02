@@ -1,0 +1,6 @@
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/nspcc-dev/neo-go/pkg/interop v0.0.0-20250116113717-16a6a59c4342 h1:iMTA8b30C+78m/d0/HK1etLR6mHG0A7bUbb5PV5pjVk=
+github.com/nspcc-dev/neo-go/pkg/interop v0.0.0-20250116113717-16a6a59c4342/go.mod h1:kVLzmbeJJdbIPF2bUYhD8YppIiLXnRQj5yqNZvzbOL0=
+github.com/nspcc-dev/neo-go/pkg/interop v0.0.0-20250121185822-673b26fdb109 h1:8PsvjSehskOoaTZMd4n5Gl6lw5kQsBZgi72Ph/uVeHA=
+github.com/nspcc-dev/neo-go/pkg/interop v0.0.0-20250121185822-673b26fdb109/go.mod h1:kVLzmbeJJdbIPF2bUYhD8YppIiLXnRQj5yqNZvzbOL0=
