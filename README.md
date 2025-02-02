@@ -24,25 +24,3 @@
  хосты могут продавать свои уникальные вопросы другим создателям комнат, предоставляя возможность перенести успешные концепции в новые игры.
 - Монетизация популярности:
  популярные хосты могут зарабатывать на продаже вопросов или использовании их в “коллаборациях” с другими комнатами, привлекая дополнительный трафик.
-
-
-## Описание игры:
-![Описание основных действующих лиц и их действий](https://git.frostfs.info/nastyxxaavs/web3_draft/src/branch/master/schemes/Web3-Jackbox-uc.jpg)
-
-
-![Процесс вызова метода игры (общий вид)](https://git.frostfs.info/nastyxxaavs/web3_draft/src/branch/master/schemes/Screenshot%202025-01-17%20174634.png)
-
-## Список команд, используемых в игре:
-#### host: 
-- createRoom(host, countRoundWinners, countGameWinners) 
-- startGame(roomId)
-- askQuestion(roomId, tokenId), так как вопросы хоста представляются в виде уникальных NFT-токенов, то мы передаем их ID
-- endQuestion(roomId)
-- getRoundWinner(roomId)
-- manuallyFinishGame(roomId)
-#### player: 
-- joinRoom(roomId)
-- confirmReadiness(roomId)
-- sendAnswer(roomId, text)
-- voteAnswer(roomId, answerIdx), где answerIdx - индекс для сохранения порядка, в котором пишутся ответы при отправке игроками
-- voteToFinishGame(roomId)
