@@ -184,10 +184,6 @@ wallet4 voteToFinishGame
 - Проверка любой транзакции в логах
 
 ```curl -s --data '{ "jsonrpc": "2.0", "id": 1, "method": "getapplicationlog", "params": ["<хэш транзакции>"] }' https://localhost:30333 | jq```
-- neo-go util convert - для конвертации типов
-
-![Обобщенное описание процесса игры](https://git.frostfs.info/nastyxxaavs/web3_draft/src/branch/master/schemes/web3_activity_diagram.jpg)
-
 
 
 
